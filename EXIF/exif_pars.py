@@ -12,3 +12,7 @@ for roots, dirs, files in os.walk(img_path):
             my_image = Image(image_file)
             if my_image.has_exif:
                 print(full_name)
+
+
+                print()
+                
