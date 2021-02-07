@@ -1,9 +1,10 @@
 import os
 import fileinput
-from exif import Image
 import fnmatch
+from exif import Image
 
-img_path = "D:\\Distr\\foto"
+#img_path = "D:\\Distr\\foto"
+img_path = "F:\\foto"
 
 for roots, dirs, files in os.walk(img_path):
     for file in files:
