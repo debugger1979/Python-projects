@@ -1,6 +1,6 @@
 import os
 import fileinput
-from EXIF import Image
+from exif import Image
 import fnmatch
 
 img_path = "D:\\Distr\\foto"
@@ -12,7 +12,5 @@ for roots, dirs, files in os.walk(img_path):
             my_image = Image(image_file)
             if my_image.has_exif:
                 print(full_name)
-
-
                 print()
                 
