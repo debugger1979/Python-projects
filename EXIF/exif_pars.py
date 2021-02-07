@@ -1,6 +1,6 @@
 import os
 import fileinput
-from exif import Image
+from EXIF import Image
 import fnmatch
 
 img_path = "D:\\Distr\\foto"
